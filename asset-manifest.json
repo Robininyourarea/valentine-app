@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/valentine-app/static/css/main.5dae4633.css",
-    "main.js": "/valentine-app/static/js/main.0c723189.js",
+    "main.js": "/valentine-app/static/js/main.9188e0c6.js",
     "static/media/pink rose.webp": "/valentine-app/static/media/pink rose.5cf87b79ae7423ca6196.webp",
     "static/media/photo8.jpg": "/valentine-app/static/media/photo8.d1c266061311dec02332.jpg",
     "static/media/photo9.jpg": "/valentine-app/static/media/photo9.0150aca2d7f86f962915.jpg",
@@ -21,10 +21,10 @@
     "static/media/rose.png": "/valentine-app/static/media/rose.ff7197ad939c4a928d6f.png",
     "index.html": "/valentine-app/index.html",
     "main.5dae4633.css.map": "/valentine-app/static/css/main.5dae4633.css.map",
-    "main.0c723189.js.map": "/valentine-app/static/js/main.0c723189.js.map"
+    "main.9188e0c6.js.map": "/valentine-app/static/js/main.9188e0c6.js.map"
   },
   "entrypoints": [
     "static/css/main.5dae4633.css",
-    "static/js/main.0c723189.js"
+    "static/js/main.9188e0c6.js"
   ]
 }
