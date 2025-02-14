@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/valentine-app/static/css/main.5dae4633.css",
+    "main.js": "/valentine-app/static/js/main.0c723189.js",
+    "static/media/pink rose.webp": "/valentine-app/static/media/pink rose.5cf87b79ae7423ca6196.webp",
+    "static/media/photo8.jpg": "/valentine-app/static/media/photo8.d1c266061311dec02332.jpg",
+    "static/media/photo9.jpg": "/valentine-app/static/media/photo9.0150aca2d7f86f962915.jpg",
+    "static/media/photo7.jpg": "/valentine-app/static/media/photo7.9ba106981226922c8ca3.jpg",
+    "static/media/photo12.jpg": "/valentine-app/static/media/photo12.7427a0c7dfd2de5c83ec.jpg",
+    "static/media/photo10.jpg": "/valentine-app/static/media/photo10.260646248737c8b67734.jpg",
+    "static/media/photo13.jpg": "/valentine-app/static/media/photo13.3993ba217bd4fd6ce863.jpg",
+    "static/media/photo11.jpg": "/valentine-app/static/media/photo11.b9acc5a04ddc8f35802c.jpg",
+    "static/media/photo5.jpg": "/valentine-app/static/media/photo5.9a462ff393dcb8df559e.jpg",
+    "static/media/cats.png": "/valentine-app/static/media/cats.4d2914c1c3f5ad2f1ca3.png",
+    "static/media/photo1.jpg": "/valentine-app/static/media/photo1.bb39b3f8faf7cc5496e4.jpg",
+    "static/media/photo6.jpg": "/valentine-app/static/media/photo6.b9215a95d0b578fa4797.jpg",
+    "static/media/photo4.jpg": "/valentine-app/static/media/photo4.b3610ced0ffd440e574b.jpg",
+    "static/media/roses.png": "/valentine-app/static/media/roses.86320d6bbfa370ff57c7.png",
+    "static/media/photo3.jpg": "/valentine-app/static/media/photo3.4f9c3b5ec0d9fbf1e5b0.jpg",
+    "static/media/photo2.jpg": "/valentine-app/static/media/photo2.607237f8b0170a13035f.jpg",
+    "static/media/rose.png": "/valentine-app/static/media/rose.ff7197ad939c4a928d6f.png",
+    "index.html": "/valentine-app/index.html",
+    "main.5dae4633.css.map": "/valentine-app/static/css/main.5dae4633.css.map",
+    "main.0c723189.js.map": "/valentine-app/static/js/main.0c723189.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dae4633.css",
+    "static/js/main.0c723189.js"
+  ]
+}
