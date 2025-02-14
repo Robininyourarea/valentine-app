@@ -1,0 +1,61 @@
+.gallery-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures full-screen background */
+    width: 100%;
+    background: linear-gradient(150deg, #ff4d6d, #f3bbd0);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #e8dbdd;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    color: #f9d3da;
+    margin-bottom: 20px;
+}
+
+/* Swiper Container */
+.gallery-slider {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Custom Swiper Slide - Adjusting previous/next images */
+.swiper-slide-custom {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* Non-active slides (previous & next) */
+.swiper-slide:not(.swiper-slide-active) {
+    transform: scale(0.8); /* Make them slightly smaller */
+    opacity: 0.5; /* Make them semi-transparent */
+}
+
+/* Active Image */
+.gallery-image {
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Swiper Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ff4d6d;
+}
+
+.swiper-pagination-bullet {
+    background: #ff4d6d;
+}

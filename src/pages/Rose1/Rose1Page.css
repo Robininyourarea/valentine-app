@@ -1,0 +1,41 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+}
+
+.img1 {
+    width: 400px;
+    height: 400px;
+}
+
+.button-container {
+    display: flex; /* Aligns buttons in a row */
+    justify-content: center; /* Centers buttons */
+    gap: 20px; /* Adds spacing between buttons */
+    margin-top: 20px;
+    position: relative; /* Allows "No" button to move within this container */
+}
+
+.yes-button, .no-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.yes-button {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+.no-button {
+    background-color: #ffffff;
+    color: #ff4d6d;
+    position: relative; /* Keep it inside the flex container */
+    transition: 0.2s ease-in-out;
+}

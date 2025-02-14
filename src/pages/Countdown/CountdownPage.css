@@ -1,0 +1,76 @@
+/* Background Styling */
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(135deg, #ff4d6d, #ff70a6);
+    color: white;
+}
+
+/* Love Image */
+.love-image {
+    width: 220px;
+    margin-bottom: 5px;
+}
+
+/* Title */
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Countdown Box */
+.countdown-box {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Countdown Item */
+.countdown-item {
+    background: white;
+    color: #ff4d6d;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Numbers */
+.count {
+    font-size: 60px;
+}
+
+/* Labels */
+.label {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Next Button */
+.next-button {
+    background-color: white;
+    color: #ff4d6d;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.next-button:hover {
+    background-color: #ff4d6d;
+    color: white;
+}

@@ -1,0 +1,55 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    text-align: center;
+    background: linear-gradient(150deg, #ff4d6d, #f3bbd0);
+}
+
+/* Button Container */
+.button-container {
+    display: flex; /* Aligns buttons in a row */
+    justify-content: center; /* Centers buttons */
+    gap: 20px; /* Adds spacing between buttons */
+    margin-top: 20px;
+    position: relative; /* Allows "No" button to move within this container */
+}
+
+/* General Button Styles */
+.yes-button, .no-button {
+    padding: 12px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Yes Button Hover Effect */
+.yes-button {
+    background-color: #ff4d6d;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yes-button:hover {
+    background-color: #d73c5c;
+    transform: scale(1.1); /* Slightly increase size */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* No Button Hover Effect */
+.no-button {
+    background-color: #ffffff;
+    color: #ff4d6d;
+    position: relative; /* Keep it inside the flex container */
+}
+
+.no-button:hover {
+    background-color: #999;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
